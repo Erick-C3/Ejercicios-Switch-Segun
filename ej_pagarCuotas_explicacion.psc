@@ -34,7 +34,7 @@ Algoritmo pagoCuotas
 		CUOTAS_12:
 			precioFinal = precioProducto * INTERES_12_CUOTAS;
 			Escribir "Seleccionaste 12 cuotas";
-			escribir "Precio final: $" precioFinal ;//bug
+			escribir "Precio final: $" precioFinal ;
 			escribir "$ " precioFinal / CUOTAS_12 " por cada mes";
 		De Otro Modo:
 			Escribir "No es posible pagar en " cantidadCuotas " cuotas";
